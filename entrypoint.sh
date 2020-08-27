@@ -21,3 +21,4 @@ sonar-scanner \
 	-Dsonar.password=${INPUT_PASSWORD} \
 	-Dsonar.sources=. \
 	-Dsonar.sourceEncoding=UTF-8
+	-Dsonar.inclusions=file:${INCLUSIONS}
