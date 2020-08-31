@@ -22,6 +22,3 @@ sonar-scanner \
 	-Dsonar.sources=. \
 	-Dsonar.sourceEncoding=UTF-8 \
 	-Dsonar.inclusions=${INPUT_INCLUSIONS}
-	-Dsonar.c.file.suffixes=-
-    	-Dsonar.cpp.file.suffixes=-
-    	-Dsonar.objc.file.suffixes=-
